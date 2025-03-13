@@ -1,7 +1,7 @@
 import React from "react";
 
 function GitHubPage() {
-  return <div>GitHubPage</div>;
+  return <div className="pt-24">GitHubPage</div>;
 }
 
 export default GitHubPage;

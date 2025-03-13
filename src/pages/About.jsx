@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutPage() {
   return (
-    <div className="h-[70vh] flex items-center max-w-6xl mx-auto pt-24">
+    <div className="h-[75vh] flex items-center max-w-6xl mx-auto pt-24">
       <div className="h-[100%] w-[50%] flex justify-center items-center relative">
         <img className="h-[80%] rounded-3xl" src="./aboutAssets/about-1.jpeg" />
 
