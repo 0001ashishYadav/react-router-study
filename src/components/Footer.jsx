@@ -5,7 +5,7 @@ import { PiVinylRecord } from "react-icons/pi";
 
 function Footer() {
   return (
-    <footer className="h-[35vh] border-t-2 border-b-2  border-gray-500/20 mt-3 mb-2">
+    <footer className="h-[35vh] border-t-2 border-b-2  border-gray-500/20 mt-8 mb-2">
       <div className="h-[75%] max-w-6xl flex justify-center items-center border-b-2  border-gray-500/20 mx-auto">
         <div className="text-5xl h-[100%] w-[50%] font-semibold pt-6 ">
           <span className=" text-gray-500">My</span>

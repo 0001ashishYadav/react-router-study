@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router";
 
 function Header() {
   return (
-    <header className="border-b-2 border-gray-500/20 mb-3 fixed inset-x-0 bg-white">
+    <header className="border-b-2 border-gray-500/20 mb-3 fixed inset-x-0 z-50 bg-white">
       <div className="h-16 max-w-6xl flex justify-between items-center mx-auto ">
         <div className="text-4xl font-semibold">
           <span className=" text-gray-500">My</span>

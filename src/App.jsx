@@ -10,6 +10,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import LoginPage from "./auth/Login";
 import SignUpPage from "./auth/SignUp";
+import UserPage from "./pages/User";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/gitHub" element={<GitHubPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignUpPage />} />
+        <Route path="user/:userid" element={<UserPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
 
