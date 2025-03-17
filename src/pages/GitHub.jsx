@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router";
 
+// import { useLoaderData } from "react-router";
+
 function GitHubPage() {
+  // const data = useLoaderData();
+
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -11,11 +15,11 @@ function GitHubPage() {
         setData(data);
       })
     );
-  }, [data]);
+  }, []);
 
   return (
     <div className="pt-24">
-      <div className="h-[60vh] max-w-4xl flex justify-center items-center bg-green-900/10 mx-auto rounded-3xl">
+      <div className="h-[60vh] max-w-4xl flex justify-center items-center bg-green-900/10 mx-auto rounded-3xl border-green-800/5 border-2">
         <div className="w-[50%] h-[100%] flex justify-center items-center text-2xl font-semibold text-red-800">
           <div className="text-center">
             <img className="h-[300px] rounded-full" src={data.avatar_url} />
@@ -40,3 +44,8 @@ function GitHubPage() {
 }
 
 export default GitHubPage;
+
+// export const githubInfo = async () => {
+//   const res = await fetch(`https://api.github.com/users/0001ashishYadav`);
+//   return res.json();
+// };
